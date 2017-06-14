@@ -1,0 +1,260 @@
+.php-system{
+	width: 100%;
+	min-width: 1200px;
+	max-width: 1920px;
+	height: 6070px;
+	background: #fff;
+}
+.php-system .container{
+	width: 1200px;
+	height: 6070px;
+	margin: 0 auto;
+}
+.php-system .container .label{
+	width: 375px;
+	height: 21px;
+	padding-top: 34px;
+}
+.php-system .container .label img,.php-system .container .label p{
+	float: left;
+}
+.php-system .container .label img{
+	margin-right: 16px;
+}
+.php-system .container .label p{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	font-weight: normal;
+	color: #4c4c4c;
+	margin-right:6px;
+}
+.php-system .passage{
+	width: 902px;
+	height:5960px;
+	margin:53px auto 0;
+}
+.passage h2{
+	font-family: 微软雅黑;
+	font-size: 24px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+.passage .icon{
+	width: 90px;
+	height: 25px;
+	margin-left: 815px;
+	margin-top: 50px;
+}
+.passage .icon img{
+	float: left;
+	margin-right: 5px;
+}
+.passage .icon img:last-of-type{
+	margin-right: 0px;
+}
+.passage .foreword{
+	width: 902px;
+	height: 197px;
+	font-family: 宋体;
+	font-size: 14px;
+	color: #4e4e4e;
+	text-indent: 2em;
+	margin-top: 60px;
+	line-height: 25px;
+}
+.passage .frame{
+	width: 902px;
+	height: 1419px;
+}
+.passage .frame h3{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	font-weight: normal;
+	color: #161616;
+	margin-bottom: 35px;
+}
+.passage .frame p{
+	font-family: 宋体;
+	font-size: 14px;
+	color: #4e4e4e;
+	line-height: 27px;
+	text-indent: 2em;
+}
+.passage .function{
+	width: 902px;
+	height: 4071px;
+}
+.passage .function h3{
+	font-family: 微软雅黑;
+	font-size: 18px;
+	font-weight: normal;
+	color: #181818;
+	margin-bottom: 30px;
+}
+.passage .function p{
+	font-family: 宋体;
+	font-size: 16px;
+	color: #242424;
+	line-height: 27px;
+	text-indent: 2em;
+}
+.passage .function h4{
+	font-family: 宋体;
+	font-size: 18px;
+	color: #242424;
+	line-height: 33px;
+}
+.passage .function h5{
+	font-family: 宋体;
+	font-size: 16px;
+	color: #242424;
+	line-height: 33px;
+}
+.function .commend p{
+	font-size: 14px;
+}
+.passage .arrow{
+	width: 75px;
+	height: 32px;
+}
+.passage .arrow>span{
+	display: block;
+	width:28px;
+	height: 28px;
+	border-radius: 50%;
+	border:2px solid #a3a3a3;
+	float: left;
+	cursor: pointer;
+}
+.passage .arrow .leftarrow{
+	margin-right:10px;
+}
+.passage .arrow .rightarrow{
+	border:2px solid #ed6d1a;
+}
+.passage .arrow span{
+	font-family: 微软雅黑;
+	font-style: 14px;
+	font-weight: normal;
+	color: #9d9d9d;
+	text-align: center;
+}
+.passage .arrow .rightarrow span{
+	color: #ec6618;
+}
+.link{
+	width: 100%;
+	min-width: 1200px;
+	max-width: 1920px;
+	height: 174px;
+	padding-top: 2px;
+	border-top: 1px solid #eeeeee;
+}
+.linkways{
+	width: 100%;
+	height: 172px;
+	background: #eeeeee;
+}
+.link .container{
+	width: 905px;
+	height: 142px;
+	padding-top: 30px;
+	margin: 0 auto;
+}
+.linkways .container>div,.linkways .container>span{
+	float: left;
+}
+.linkways .container>span{
+	display: block;
+	width: 1px;
+	height:108px;
+	background: #e3e3e3; 
+}
+.linkways .wengdo{
+	width:274px;
+	height: 130px;
+	padding-top: 12px;
+	padding-left: 9px;
+}
+.linkways .wengdo p,.linkways .blog p{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666666;
+}
+.linkways .blog{
+	width:283px;
+	height: 107px;
+	padding-top: 35px;
+	margin-left: 60px;
+}
+.linkways .blog p,.linkways .blog img{
+	float: left;
+	margin-right: 18px;
+}
+.linkways .code{
+	width:164px;
+	height: 130px;
+	padding-top: 12px;
+	margin-left:107px;
+	position: relative;
+	overflow: hidden;
+}
+.code .scan{
+	position: absolute;
+	left: 0;
+	box-shadow: 20px 10px 5px 1px rgba(0,0,0,0.1);
+	z-index: 1;
+}
+/*.code .shadow{
+	position: absolute;
+	left: 0;
+	top: 0;
+	-moz-transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	transform:rotate(-45deg);
+}*/
+.submenu .right{
+	width:44px; 
+	height:148px;
+	position:absolute;
+	right: 0;
+	background: #989898;
+}
+.submenu .right>div{
+	width:44px;
+	height: 37px;
+	position:relative;
+	right: 0;
+	cursor: pointer;
+	z-index: 1;
+}
+.submenu .right>div p,.submenu .right>div img{
+	float: left;
+}
+.submenu .right p{
+	display: none;
+	width: 145px;
+	height: 37px;
+	font-family: 微软雅黑;
+	font-size: 12px;
+	font-weight: normal;
+	color: white;
+	background: #ec6618;
+	position: absolute;
+	left:-101px;
+	text-indent:1em; 
+	line-height: 37px;
+}
+.submenu .right img{
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 3px;
+	padding-left: 9px;
+	position: relative;
+	z-index: 1;
+}
+.submenu .right>div:hover p{
+	display: block;
+}

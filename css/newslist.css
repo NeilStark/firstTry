@@ -1,0 +1,160 @@
+.news-consult{
+	width: 100%;
+	min-width: 1200px;
+	max-width: 1920px;
+	height: 1600px;
+	background: #fff;
+}
+.news-consult .container{
+	width: 1200px;
+	height: 1600px;
+	margin:0 auto;
+}
+.news-consult .label{
+	width: 191px;
+	height: 21px;
+	margin-left: 28px;
+	padding-top: 44px;
+}
+.news-consult .label img,.news-consult .label p{
+	float: left;
+}
+.news-consult .label img{
+	margin-right: 18px;
+}
+.news-consult .label p{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	font-weight: normal;
+	color: #434343;
+	cursor: pointer;
+}
+.news-consult .label p:last-of-type{
+	color: #fd7a39;
+}
+.news-consult .container h2{
+	font-family: 微软雅黑;
+	font-size: 24px;
+	font-weight: bold;
+	color: #2a5320;
+	text-align: center;
+	margin-top: 66px;
+	margin-bottom: 78px;
+}
+.news-consult .container .news-1{
+	width: 1200px;
+	height: 197px;
+	border-top: 1px solid #e5e5e5;
+	/*border-bottom:1px solid #e5e5e5;*/
+}
+.news-consult .container .news-1 .center,.news-consult .container .news-2 .center,.news-consult .container .news-3 .center,.news-consult .container .news-4 .center,.news-consult .container .news-5 .center,.news-consult .container .news-6 .center{
+	width: 980px;
+	height: 196px;
+	margin: 0 auto;
+	border-bottom:1px solid #e5e5e5;
+}
+.news-1 img,.news-1 .date,.news-1 .content,.news-2 img,.news-2 .date,.news-2 .content,.news-3 img,.news-3 .date,.news-3 .content,.news-4 img,.news-4 .date,.news-4 .content,.news-5 img,.news-5 .date,.news-5 .content,.news-6 img,.news-6 .date,.news-6 .content{
+	float: left;
+}
+.news-1 img,.news-2 img,.news-3 img,.news-4 img,.news-5 img,.news-6 img{
+	padding-top: 20px;
+	margin-right: 28px;
+}
+.news-1 .date,.news-2 .date,.news-3 .date,.news-4 .date,.news-5 .date,.news-6 .date{
+	display: block;
+	width: 72px;
+	height: 52px;
+	padding-top: 20px;
+	background: #e7e7e7;
+	margin-top: 57px;
+	text-align: center;
+	margin-right: 24px;
+}
+.news-1 .date p:first-of-type,.news-2 .date p:first-of-type,.news-3 .date p:first-of-type,.news-4 .date p:first-of-type,.news-5 .date p:first-of-type,.news-6 .date p:first-of-type{
+	font-family: 微软雅黑;
+	font-size: 18px;
+	font-weight: normal;
+	color: #000000;
+}
+.news-1 .date p:last-of-type,.news-2 .date p:last-of-type,.news-3 .date p:last-of-type,.news-4 .date p:last-of-type,.news-5 .date p:last-of-type,.news-6 .date p:last-of-type{
+	font-family: 微软雅黑;
+	font-size: 12px;
+	font-weight: normal;
+	color: #323232;
+}
+.news-1 .content,.news-2 .content,.news-3 .content,.news-4 .content,.news-5 .content,.news-6 .content{
+	width: 591px;
+	height: 160px;
+	margin-top: 37px;
+}
+.news-1 .content h3,.news-2 .content h3,.news-3 .content h3,.news-4 .content h3,.news-5 .content h3,.news-6 .content h3{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	font-weight: normal;
+	color: #000000;
+	margin-bottom: 10px;
+}
+.news-1 .content h4,.news-2 .content h4,.news-3 .content h4,.news-4 .content h4,.news-5 .content h4,.news-6 .content h4{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	font-weight: normal;
+	color: #3a3a3a;
+}
+.news-1 .content p,.news-2 .content p,.news-3 .content p,.news-4 .content p,.news-5 .content p,.news-6 .content p{
+	font-family: 微软雅黑;
+	font-size: 12px;
+	font-weight: normal;
+	color:#7a7a7a;
+	line-height: 20px;
+}
+.news-1 .center:hover,.news-2 .center:hover,.news-3 .center:hover,.news-4 .center:hover,.news-5 .center:hover,.news-6 .center:hover{
+	background: #f2f8f4;
+}
+.news-1 .center:hover .date,.news-2 .center:hover .date,.news-3 .center:hover .date,.news-4 .center:hover .date,.news-5 .center:hover .date,.news-6 .center:hover .date{
+	background: #b8b8b8;
+}
+.news-1 .center:hover .content h3,.news-2 .center:hover .content h3,.news-3 .center:hover .content h3,.news-4 .center:hover .content h3,.news-5 .center:hover .content h3,.news-6 .center:hover .content h3{
+	color: #ff6e26;
+}
+.news-consult .container .news-2,.news-consult .container .news-3,.news-consult .container .news-4,.news-consult .container .news-5,.news-consult .container .news-6{
+	width: 1200px;
+	height: 197px;
+	/*border-bottom:1px solid #e5e5e5;*/
+}
+.pagination{
+	width: 301px;
+	height: 19px;
+	margin: 60px auto 0;
+}
+.pagination span,.pagination ul{
+	float: left;
+	margin-right: 9px;
+}
+.pagination span{
+	cursor: pointer;
+}
+.pagination ul li{
+	display: block;
+	width: 19px;
+	height: 19px;
+	text-align: center;
+	line-height: 19px;
+	float: left;
+	margin-right: 5px;
+}
+.pagination span,.pagination ul li{
+	font-family: 微软雅黑;
+	font-size: 16px;
+	font-weight: normal;
+	color: #3d3d3d
+}
+.pagination .active{
+	background: #f37e1f;
+	color: white; 
+}
+.pagination ul li:hover{
+	background:#f37e1f;
+	color: white; 
+}
+
+

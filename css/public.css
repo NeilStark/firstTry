@@ -1,0 +1,158 @@
+.nav{
+	width: 100%;
+	min-width: 1200px;
+	max-width: 1920px;
+	height: 59px;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	z-index:1;
+}
+.nav img{
+	margin-left: 99px;
+	margin-top: 14px;
+	float: left;
+}
+.nav ul{
+	float: left;
+	margin-left: 365px;
+}
+.nav ul li{
+	width: 84px;
+	height: 59px;
+	/*background: #bf4609;*/
+	margin-right: 27px;
+	float: left;
+	text-align: center;
+	line-height: 59px;
+}
+.nav ul li a{
+	display: block;
+	width: 84px;
+	height: 59px;
+	color: white;
+}
+.nav ul li.clicked{
+	background: #bf4609;
+}
+.nav ul li:hover{
+	background:#bf4609 ;
+}
+.banner{
+	width: 100%;
+	min-width: 1200px;
+	max-width: 1920px;
+	height: 542px;
+	position: relative;
+	overflow: hidden;
+}
+.banner ul{
+	width: 400%;
+	position: absolute;
+	top: 0;
+}
+.banner ul li{
+	float: left;
+	/*background: rgba(0,0,0,0.68);*/
+	width:25%;
+	height: 542px;
+	position: relative;
+}
+.banner ul li .layer{
+	width: 100%;
+	height: 542px;
+	position: absolute;
+	background: rgba(0,0,0,0.68);
+	top: 0;
+}
+.banner ul li .layer .content-1{
+	width: 381px;
+	height: 179px;
+	margin: 193px auto 0;
+	text-align: center;
+}
+.banner .content-1 h1{
+	font-family: 微软雅黑;
+	font-size: 48px;
+	font-weight: bold;
+	color: #fff;
+}
+.banner .content-1 span{
+	display: block;
+	width: 84px;
+	height: 2px;
+	background: #ff722c;
+	margin-left: 148px;
+	margin-top: 20px;
+}
+.banner .content-1 p{
+	font-family: 微软雅黑;
+	font-size: 24px;
+	font-weight: normal;
+	color: #fff;
+}
+.banner .content-1 p:first-of-type{
+	margin-top: 19px;
+	margin-bottom: 12px;
+}
+.banner ul li img{
+	width: 100%;
+	height: 542px;
+}
+.banner #left{
+	position: absolute;
+	left: 47px;
+	top: 279px;
+	z-index: 1;
+}
+.banner #right{
+	position: absolute;
+	right: 47px;
+	top: 279px;
+}
+.banner .rect{
+	width: 156px;
+	height: 9px;
+	position: absolute;
+	left: 44.4%;
+	bottom: 46px; 
+}
+.banner .rect span{
+	display: block;
+	width: 39px;
+	height: 9px;
+	float: left;
+	margin-right: 13px;
+	background: #939393;
+	cursor: pointer;
+}
+.banner .rect .active{
+	background: #dddddd;
+}
+.footer{
+	width: 100%;
+	min-width: 1200px;
+	max-width: 1920px;
+	height: 90px;
+	background: rgba(0,0,0,0.8);
+}
+.footer .container{
+	width: 512px;
+	height: 62px;
+	padding-top: 28px;
+	margin: 0 auto;
+	text-align: center;
+}
+.footer p{
+	font-family: 微软雅黑;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666666;
+}
+.submenu{
+	width: 145px;
+	height: 148px;
+	position: fixed;
+	right: 0;
+	bottom: 200px;
+}
